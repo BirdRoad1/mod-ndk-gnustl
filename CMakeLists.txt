@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.4.1)
 
 set(GNUSTL_BASE_DIR ${CMAKE_CURRENT_LIST_DIR})
 set(GNUSTL_SHARED_LIBS
-    "${GNUSTL_BASE_DIR}/libs/${ANDROID_ABI}/libgnustl_shared.so"
+    "${GNUSTL_BASE_DIR}/libs/${ANDROID_ABI}/libgnustl_static.a"
     "${GNUSTL_BASE_DIR}/libs/${ANDROID_ABI}/libsupc++.a")
 set(GNUSTL_INCLUDE_DIRS
     "${GNUSTL_BASE_DIR}/include"
